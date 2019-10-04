@@ -19,12 +19,12 @@
 
             <div class="container">
 
-                <form action="">
+                <form action="" onsubmit="get()">
 
                     <div class="cont-inputs">
                         <div>
                             <label for="">Data de Início:</label><br>
-                            <input type="date" name="date_ini">
+                            <input id="d-ini" type="date" name="date_ini">
                         </div>
 
                         <div>
@@ -40,7 +40,7 @@
 
                     <div>
                         <span class="text-desc">Descrição de Tarefa:</span>
-                        <textarea name="" id="" cols="70" rows="10"></textarea> <br><br>
+                        <textarea name="" id="text-desc" cols="70" rows="10"></textarea> <br><br>
                     </div>
 
 
@@ -53,7 +53,7 @@
             </div>
 
             <div class="container-table">
-                <table class="table">
+                <table class="table" border="1px">
 
                     <thead>
                         <tr>
@@ -64,6 +64,12 @@
                         </tr>
                     </thead>
                     <tbody>
+                        <tr>
+                            <td>10/05/2015</td>
+                            <td>05/10/2015</td>
+                            <td>Uma tarefa simples</td>
+                            <td>Em andamento</td>
+                        </tr>
                         <tr>
                             <td>10/05/2015</td>
                             <td>05/10/2015</td>
