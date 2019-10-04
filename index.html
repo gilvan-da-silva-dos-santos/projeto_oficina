@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css" >
+    <script src="js/script.js"></script>
+
+</head>
+<body>
+        <header>
+            <h3 class="title">TAREFA</h3>
+        </header>
+        <section>
+
+            <div class="container">
+
+                <form action="">
+
+                    <div class="cont-inputs">
+                        <div>
+                            <label for="">Data de Início:</label><br>
+                            <input type="date" name="date_ini">
+                        </div>
+
+                        <div>
+                            <label for="">Data de Fim:</label><br>
+                            <input type="date" name="date_fim">
+                        </div>
+
+                        <div>
+                            <label for="">Status:</label><br>
+                            <input type="text" name="status">
+                        </div>
+                    </div><br><br>
+
+                    <div>
+                        <span class="text-desc">Descrição de Tarefa:</span>
+                        <textarea name="" id="" cols="70" rows="10"></textarea> <br><br>
+                    </div>
+
+
+                    <div>
+                        <input class="btn-salve" type="submit" value="Guardar">
+                        <input class="btn-cancelar" type="submit" value="Cancelar">
+                    </div>
+                </form>             
+
+            </div>
+
+            <div class="container-table">
+                <table class="table">
+
+                    <thead>
+                        <tr>
+                            <th>Data início</th>
+                            <th>Data fim</th>
+                            <th>Descrição</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>10/05/2015</td>
+                            <td>05/10/2015</td>
+                            <td>Uma tarefa simples</td>
+                            <td>Em andamento</td>
+                        </tr>
+                    </tbody>
+    
+                </table>
+            </div>
+
+
+        </section>
+</body>
+</html>
